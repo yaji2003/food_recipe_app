@@ -1,5 +1,6 @@
 .App {
   display: flex;
+  background-color: aqua;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -22,6 +23,7 @@ body {
 
 .auth-container {
   display: flex;
+  color:red;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -80,10 +82,12 @@ a {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin: 20px;
   width: 400px;
+  color: blue;
 }
 .create-recipe form {
   display: flex;
   flex-direction: column;
+  color: blueviolet;
 }
 ul {
   list-style: none;
