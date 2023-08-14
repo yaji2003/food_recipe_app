@@ -1,6 +1,5 @@
 .App {
   display: flex;
-  background-color: aqua;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -11,26 +10,35 @@
 body {
   margin: 0;
   padding: 0;
+  /* background-image: url("https://tse4.mm.bing.net/th?id=OIP.w6v8lsOXkS6JfBc67xgp9QHaFj&pid=Api&P=0&h=180") ; */
+  background-size: cover;
+
+}
+.ab{
+  color:#f2f2f2;
 }
 
-.auth {
+/* .auth {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: #f2f2f2;
-}
+} */
 
 .auth-container {
   display: flex;
-  color:red;
+  /* color:#f2f2f2; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  opacity: 1;
   padding: 20px;
-  background-color: white;
+  /* background-image: url("https://tse3.mm.bing.net/th?id=OIP.cmUbqpk1Udke_mPzdSn99gHaEw&pid=Api&P=0&h=180"); */
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
   margin: 20px;
   width: 400px;
 }
@@ -51,12 +59,32 @@ input {
   font-size: 16px;
   border-radius: 5px;
 }
+section {
+  display: flex;
+}
+.abc button {
+  background-color: #623412;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  margin-right: 5mm;
+  cursor: pointer;
+  }
+  div {
+    margin: 20px;
+    text-align: top;
+    border: 1px solid  #623412; 
+    /* padding: 10px;  */
+  }
+
+
 
 .navbar {
   margin: 0;
   width: 100%;
   height: 80px;
   background-color: black;
+  /* background-image: url("https://logodix.com/logo/2178233.png"); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,17 +105,17 @@ a {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
   margin: 20px;
   width: 400px;
-  color: blue;
+  
 }
 .create-recipe form {
   display: flex;
   flex-direction: column;
-  color: blueviolet;
+  
 }
 ul {
   list-style: none;

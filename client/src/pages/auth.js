@@ -61,6 +61,7 @@ const Login = () => {
         </div>
         <button type="submit">Login</button>
       </form>
+      <h3>New user!? Register below</h3>
     </div>
   );
 };

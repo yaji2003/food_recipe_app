@@ -48,28 +48,55 @@ export const Home = () => {
   const isRecipeSaved = (id) => savedRecipes.includes(id);
 
   return (
-    <div>
-      <h1>Recipes</h1>
-      <ul>
-        {recipes.map((recipe) => (
-          <li key={recipe._id}>
-            <div>
-              <h2>{recipe.name}</h2>
-              <button
-                onClick={() => saveRecipe(recipe._id)}
-                disabled={isRecipeSaved(recipe._id)}
-              >
-                {isRecipeSaved(recipe._id) ? "Saved" : "Save"}
-              </button>
-            </div>
-            <div className="instructions">
-              <p>{recipe.instructions}</p>
-            </div>
-            <img src={recipe.imageUrl} alt={recipe.name} />
-            <p>Cooking Time: {recipe.cookingTime} minutes</p>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <section>
+    
+    
+    <div class="abc">
+    <img src="https://tse2.mm.bing.net/th?id=OIP.uL8BvP29Gm85uIjiXxFiPQHaLH&pid=Api&P=0&h=180" alt="Image not found"></img>
+    
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">READ</button>
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">SAVE</button>
+            
+                
+  </div>
+  <div class="abc">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.2jSJL6sirQf8GvSvMva1RAHaLH&pid=Api&P=0&h=180" alt="Image not found"></img>
+    
+
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">READ</button>
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">SAVE</button>
+                
+  </div>
+  <div class="abc">
+    <img src="https://tse3.mm.bing.net/th?id=OIP.YI48lFiMuRB3DPVEYK0m6QHaLH&pid=Api&P=0&h=180" alt="Image not found"></img>
+    
+
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">READ</button>
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">SAVE</button>
+            
+                
+  </div>
+  <div class="abc">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.90W2EjL3FnxNh7qvp60FYwDMEy&pid=Api&P=0&h=180" alt="Image not found"></img>
+    
+
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">READ</button>
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">SAVE</button>
+            
+                
+  </div>
+  <div class="abc">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.U05GeRIiIyN9jfbBLy4OGwHaLH&pid=Api&P=0&h=180" alt="Image not found"></img>
+    
+
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">READ</button>
+    <button class="add-to-cart" onclick="alert('Item added to cart!!! Check the botom for cart')">SAVE</button>
+            
+             
+  </div>
+   
+  </section>
+  
+   
   );
 };
